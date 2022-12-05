@@ -1,0 +1,98 @@
+body{
+  background-image: url("./background.png");
+  background-color: #cccccc;
+}
+
+
+.centerText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 50%;
+ 
+}
+.badtext{
+  font-family: 'Space Grotesk', sans-serif;
+  color: #FF9E9E;
+  font-size: 1.5rem;
+}
+.goodtext{
+  font-family: 'Space Grotesk', sans-serif;
+  color: #ADE792;
+  font-size: 1.5rem;
+}
+
+.text{
+  font-family: 'Space Grotesk', sans-serif;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  margin-bottom: 5%;
+}
+
+.complete-div{
+  width: 60%;
+  height: 100px;  
+  position: absolute;
+  top:0;
+  bottom: 40%;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
+}
+
+.input-size{
+  width: 60%;
+  margin-bottom: 3%;
+}
+h1{
+  margin-top: 0;
+  margin-bottom: 2.5%;
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  color: #FF9E9E;  
+  text-decoration: solid;
+}
+.center {
+  width: 100%;
+  position: relative;
+}
+
+label{
+  margin-bottom: 10px;
+ font-size: large;
+}
+
+.answer-text{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+.footer{
+  position:fixed;
+  top: 10;
+  bottom: 0;
+  left: 50;
+  right: 50;
+  font-size: large;
+  color: white;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
